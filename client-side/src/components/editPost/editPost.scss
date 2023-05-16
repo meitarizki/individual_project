@@ -1,0 +1,51 @@
+.editPost {
+  .editBtn {
+    cursor: pointer;
+    color: #da5d81;
+    &:hover {
+      background-color: #e2879f;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 5px;
+    }
+  }
+
+  .modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #dd95b5;
+      width: 60%;
+      textarea {
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #dd95b5;
+        border-radius: 4px;
+      }
+
+      button {
+        background-color: #b74673;
+        color: #fff;
+        padding: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+      }
+    }
+  }
+}
