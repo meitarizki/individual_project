@@ -26,7 +26,7 @@ const Register = () => {
 
     if (input.password !== input.confirmPassword) {
       setError("Passwords do not match");
-      return
+      return;
     }
 
     setIsSubmitting(true);
@@ -55,8 +55,8 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>DAILYGRAM</h1>
-          <p>Sharing experiences towards the world around you!</p>
+          <span> </span>
+          <p>Girls, let's share your experiences to the world around you!</p>
           <span>Do you have an account?</span>
           <Link to="/login">
             <button>Login</button>
@@ -94,7 +94,7 @@ const Register = () => {
             <div className="password-field">
               <input
                 type={showConfirmPassword ? "text" : "password"}
-                placeholder="Confirm Password"
+                placeholder="Repeat Password"
                 name="confirmPassword"
                 onChange={handleChange}
               />

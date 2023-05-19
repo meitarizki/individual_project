@@ -1,8 +1,8 @@
 import "./leftBar.scss";
 import Friends from "../../assets/1.png";
 import Groups from "../../assets/2.png";
-import Market from "../../assets/3.png";
-import Watch from "../../assets/4.png";
+import Shop from "../../assets/3.png";
+import Movies from "../../assets/4.png";
 import Memories from "../../assets/5.png";
 import Events from "../../assets/6.png";
 import Gaming from "../../assets/7.png";
@@ -24,12 +24,12 @@ const LeftBar = () => {
             <span>Groups</span>
           </div>
           <div className="item">
-            <img src={Market} alt="" />
-            <span>Marketplace</span>
+            <img src={Shop} alt="" />
+            <span>Shop</span>
           </div>
           <div className="item">
-            <img src={Watch} alt="" />
-            <span>Watch</span>
+            <img src={Movies} alt="" />
+            <span>Movies</span>
           </div>
           <div className="item">
             <img src={Memories} alt="" />

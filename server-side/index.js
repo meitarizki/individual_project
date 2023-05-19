@@ -2,8 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const multer = require("multer");
-const PORT = 3000;
-const db = require("./controllers");
+const PORT = 2000;
 
 const app = express();
 app.use((req, res, next) => {
@@ -50,6 +49,5 @@ app.use("/likes", likeRouter);
 app.use("/users", userRouters);
 
 app.listen(PORT, () => {
-  // db.sequelize.sync({ alter: true });
   console.log(`Server running at port ${PORT}`);
 });

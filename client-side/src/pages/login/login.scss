@@ -1,14 +1,14 @@
 .login {
   height: 100vh;
-  background-color: rgb(231, 153, 160);
+  background-color: rgb(255, 190, 205);
   display: flex;
   align-items: center;
   justify-content: center;
 
   .card {
-    width: 30%;
+    width: 50%;
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     min-height: 600px;
     overflow: hidden;
@@ -16,10 +16,10 @@
     .left {
       flex: 1;
       background-image: linear-gradient(
-          rgba(223, 108, 147, 0.597),
-          rgba(219, 133, 133, 0.5)
+          rgba(236, 74, 115, 0.5),
+          rgba(236, 74, 115, 0.5)
         ),
-        url("https://images.pexels.com/photos/3750773/pexels-photo-3750773.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")
+        url("https://i.pinimg.com/564x/23/ae/ac/23aeacb30afc07e364d8e6d5473823b0.jpg")
           center;
       background-size: cover;
       padding: 50px;
@@ -45,7 +45,7 @@
         padding: 10px;
         border: none;
         background-color: white;
-        color: #da6f86;
+        color: #d0246c;
         font-weight: bold;
         cursor: pointer;
       }
@@ -78,7 +78,7 @@
           width: 50%;
           padding: 10px;
           border: none;
-          background-color: #ef8ed2;
+          background-color: #ef8ebe;
           color: white;
           font-weight: bold;
           cursor: pointer;
@@ -88,8 +88,8 @@
         height: 30px;
         display: flex;
         border: none;
-        padding: 7px 8px;
-        background-color: #99336d;
+        padding: 3px 4px;
+        background-color: #993355;
         color: white;
         border-radius: 20px;
 

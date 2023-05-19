@@ -1,6 +1,6 @@
 .login {
   height: 100vh;
-  background-color: rgb(193, 190, 255);
+  background-color: rgb(255, 190, 218);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,9 +15,8 @@
 
     .left {
       flex: 1;
-      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
-        url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
-          center;
+      background: linear-gradient(rgba(96, 11, 42, 0.5), rgba(96, 11, 42, 0.5)),
+        url("https://wallpaperaccess.com/full/2550086.jpg") center;
       background-size: cover;
       padding: 50px;
       display: flex;
@@ -42,7 +41,7 @@
         padding: 10px;
         border: none;
         background-color: white;
-        color: #663399;
+        color: #99334b;
         font-weight: bold;
         cursor: pointer;
       }
@@ -67,7 +66,7 @@
 
         input {
           border: none;
-          border-bottom: 1px solid lightgray;
+          border-bottom: 1px solid rgb(217, 156, 181);
           padding: 20px 10px;
         }
 
@@ -75,7 +74,7 @@
           width: 50%;
           padding: 10px;
           border: none;
-          background-color: #663399;
+          background-color: #993346;
           color: white;
           border-radius: 30px;
           font-weight: bold;

@@ -1,9 +1,9 @@
 .editPost {
   .editBtn {
     cursor: pointer;
-    color: #da5d81;
+    color: #0a44c0;
     &:hover {
-      background-color: #e2879f;
+      background-color: #1c59dd;
       color: #fff;
       padding: 2px 8px;
       border-radius: 5px;
@@ -24,7 +24,7 @@
       background-color: #fefefe;
       margin: auto;
       padding: 20px;
-      border: 1px solid #dd95b5;
+      border: 1px solid #888;
       width: 60%;
       textarea {
         width: 100%;
@@ -33,12 +33,12 @@
         margin-bottom: 10px;
         padding: 5px;
         font-size: 16px;
-        border: 1px solid #dd95b5;
+        border: 1px solid #ccc;
         border-radius: 4px;
       }
 
       button {
-        background-color: #b74673;
+        background-color: #3367d6;
         color: #fff;
         padding: 8px;
         border-radius: 4px;
